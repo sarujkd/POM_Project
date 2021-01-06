@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19222" started-at="2021-01-06T15:53:06 CST" finished-at="2021-01-06T15:53:25 CST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19222" started-at="2021-01-06T15:53:06 CST" finished-at="2021-01-06T15:53:25 CST">
+      <class name="com.Tests.LoginTest">
+        <test-method status="PASS" signature="CreateReport()[pri:0, instance:com.Tests.LoginTest@17695df3]" name="CreateReport" is-config="true" duration-ms="140" started-at="2021-01-06T15:53:06 CST" finished-at="2021-01-06T15:53:06 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.Tests.LoginTest@17695df3]" name="setUp" is-config="true" duration-ms="10893" started-at="2021-01-06T15:53:06 CST" finished-at="2021-01-06T15:53:17 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC1_login_With_Valid_Credentials_Test()[pri:1, instance:com.Tests.LoginTest@17695df3]" name="TC1_login_With_Valid_Credentials_Test" duration-ms="7077" started-at="2021-01-06T15:53:17 CST" finished-at="2021-01-06T15:53:24 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_login_With_Valid_Credentials_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Tests.LoginTest@17695df3]" name="tearDown" is-config="true" duration-ms="768" started-at="2021-01-06T15:53:24 CST" finished-at="2021-01-06T15:53:25 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closReport()[pri:0, instance:com.Tests.LoginTest@17695df3]" name="closReport" is-config="true" duration-ms="307" started-at="2021-01-06T15:53:25 CST" finished-at="2021-01-06T15:53:25 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closReport -->
+      </class> <!-- com.Tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="sanity Suite" duration-ms="17374" started-at="2021-01-06T15:53:25 CST" finished-at="2021-01-06T15:53:42 CST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17374" started-at="2021-01-06T15:53:25 CST" finished-at="2021-01-06T15:53:42 CST">
+      <class name="com.Tests.forgotPassWordTest">
+        <test-method status="PASS" signature="CreateReport()[pri:0, instance:com.Tests.forgotPassWordTest@12028586]" name="CreateReport" is-config="true" duration-ms="6" started-at="2021-01-06T15:53:25 CST" finished-at="2021-01-06T15:53:25 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateReport -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.Tests.forgotPassWordTest@12028586]" name="setUp" is-config="true" duration-ms="13539" started-at="2021-01-06T15:53:25 CST" finished-at="2021-01-06T15:53:38 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC4_ForgotPassword_Test()[pri:1, instance:com.Tests.forgotPassWordTest@12028586]" name="TC4_ForgotPassword_Test" duration-ms="2803" started-at="2021-01-06T15:53:38 CST" finished-at="2021-01-06T15:53:41 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4_ForgotPassword_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Tests.forgotPassWordTest@12028586]" name="tearDown" is-config="true" duration-ms="989" started-at="2021-01-06T15:53:41 CST" finished-at="2021-01-06T15:53:42 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closReport()[pri:0, instance:com.Tests.forgotPassWordTest@12028586]" name="closReport" is-config="true" duration-ms="35" started-at="2021-01-06T15:53:42 CST" finished-at="2021-01-06T15:53:42 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closReport -->
+      </class> <!-- com.Tests.forgotPassWordTest -->
+    </test> <!-- Test -->
+  </suite> <!-- sanity Suite -->
+  <suite name="Multiple Suites" duration-ms="0" started-at="2021-01-06T15:53:42 CST" finished-at="2021-01-06T15:53:42 CST">
+    <groups>
+    </groups>
+  </suite> <!-- Multiple Suites -->
+</testng-results>
