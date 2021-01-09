@@ -8,17 +8,19 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">19,222</td><td></td><td></td></tr>
 <tr><th colspan="8">sanity Suite</th></tr>
-<tr class="stripe"><td><a href="#t1">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">17,374</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">16,286</td><td></td><td></td></tr>
 <tr><th colspan="8">Multiple Suites</th></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">36,596</th><th colspan="2"></th></tr>
+<tr><th colspan="8">Smoke Suite</th></tr>
+<tr class="stripe"><td><a href="#t1">Login Test on chrome</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">45,882</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">62,168</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.Tests.LoginTest</td><td><a href="#m0">TC1_login_With_Valid_Credentials_Test</a></td><td rowspan="1">1609969997257</td><td rowspan="1">7077</td></tr></tbody>
-<tbody><tr><th colspan="4">sanity Suite</th></tr></tbody><tbody id="t1"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.Tests.forgotPassWordTest</td><td><a href="#m1">TC4_ForgotPassword_Test</a></td><td rowspan="1">1609970018982</td><td rowspan="1">2803</td></tr></tbody>
-<tbody><tr><th colspan="4">Multiple Suites</th></tr></tbody></table>
-<h2>Test</h2><h3 id="m0">com.Tests.LoginTest#TC1_login_With_Valid_Credentials_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test</h2><h3 id="m1">com.Tests.forgotPassWordTest#TC4_ForgotPassword_Test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">sanity Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.Tests.forgotPassWordTest</td><td><a href="#m0">TC1_ForgotPassword_Test</a></td><td rowspan="1">1610158468043</td><td rowspan="1">3023</td></tr></tbody>
+<tbody><tr><th colspan="4">Multiple Suites</th></tr></tbody><tbody><tr><th colspan="4">Smoke Suite</th></tr></tbody><tbody id="t1"><tr><th colspan="4">Login Test on chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.Tests.LoginTest</td><td><a href="#m1">TC1_login_With_Valid_Credentials_Test</a></td><td rowspan="1">1610158420947</td><td rowspan="1">6496</td></tr><tr class="passedeven"><td><a href="#m2">TC2_login_Without_Password_Test</a></td><td rowspan="1">1610158438223</td><td rowspan="1">2149</td></tr><tr class="passedeven"><td><a href="#m3">TC3_login_Without_Username_Test</a></td><td rowspan="1">1610158451348</td><td rowspan="1">3225</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.Tests.forgotPassWordTest#TC1_ForgotPassword_Test</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>sarutanush@gmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Login Test on chrome</h2><h3 id="m1">com.Tests.LoginTest#TC1_login_With_Valid_Credentials_Test</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>sarutanush@gmail.com</td><td>India1234</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.Tests.LoginTest#TC2_login_Without_Password_Test</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>sarutanush@gmail.com</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.Tests.LoginTest#TC3_login_Without_Username_Test</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>India1234</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

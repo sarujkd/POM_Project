@@ -3,21 +3,20 @@ package com.Tests;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
+
 import org.testng.annotations.Test;
-
-import com.relevantcodes.extentreports.LogStatus;
-
-import OOPs_Pages.ForgotPwdPage;
 import OOPs_Pages.HomePage;
 import OOPs_Pages.LoginPage;
 
 public class LoginTest extends BaseTest {
 
 	private static Logger logger1 = LogManager.getLogger();
-
+     
+	@Parameters({"username","password"})
 	@Test(priority = 1, enabled = true)
-
-	public void TC1_login_With_Valid_Credentials_Test() throws InterruptedException {
+	
+	public void TC1_login_With_Valid_Credentials_Test(String UName,String pwd) throws InterruptedException {
 
 		logger1.info("TC1_login_WithValid_Credentials_Test is started");
 		logger1.info("URL is launched successfully");
@@ -31,7 +30,7 @@ public class LoginTest extends BaseTest {
 
 		System.out.println("User is in Login Page");
 
-		HomePage homePage = page.getInstance(LoginPage.class).doLogin("sarutanush@gmail.com", "India1234");
+		HomePage homePage = page.getInstance(LoginPage.class).doLogin(UName, pwd);
 		String homePageTitle = homePage.getHomePageTitle();
 
 		System.out.println("HomePage Title: " + homePageTitle);
@@ -43,9 +42,10 @@ public class LoginTest extends BaseTest {
 
 	}
 
+	@Parameters({"username"})
 	@Test(priority = 2, enabled = true)
 
-	public void TC2_login_With_InValidPassword_Test() throws InterruptedException {
+	public void TC2_login_Without_Password_Test(String Uname) throws InterruptedException {
 
 		logger1.info("TC2_login_With_InValidPassword_Test is started");
 		logger1.info("URL is launched successfully");
@@ -61,7 +61,7 @@ public class LoginTest extends BaseTest {
 		System.out.println("User is in Login Page");
 
 		// Adding invalid password
-		page.getInstance(LoginPage.class).doLogin("username:sarutanush@gmail.com");
+		page.getInstance(LoginPage.class).doLogin("username:"+Uname);
 
 		String LoginErrorMsg = page.getInstance(LoginPage.class).getErrorMessage();
 		System.out.println(LoginErrorMsg);
@@ -72,9 +72,10 @@ public class LoginTest extends BaseTest {
 		logger1.info("Testcase is passed");
 	}
 
+	@Parameters({"password"})	
 	@Test(priority = 3, enabled = true)
 
-	public void TC3_login_With_InValid_Username_Test() throws InterruptedException {
+	public void TC3_login_Without_Username_Test(String pwd) throws InterruptedException {
 
 		logger1.info("TC3_login_With_InValid_Username_Test is started");
 		logger1.info("URL is launched successfully");
@@ -90,7 +91,7 @@ public class LoginTest extends BaseTest {
 
 		// Adding invalid username
 
-		page.getInstance(LoginPage.class).doLogin("password:India1234");
+		page.getInstance(LoginPage.class).doLogin("password:"+pwd);
 		Thread.sleep(2000);
 		String ErrorMsg = page.getInstance(LoginPage.class).getErrorMessage();
 		System.out.println(ErrorMsg);

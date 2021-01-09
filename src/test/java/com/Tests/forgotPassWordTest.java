@@ -3,6 +3,7 @@ package com.Tests;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.LogStatus;
@@ -13,9 +14,9 @@ import OOPs_Pages.LoginPage;
 public class forgotPassWordTest extends BaseTest {
 
 	private static Logger logger1=LogManager.getLogger();
-	
+	@Parameters("username")
 	@Test(priority =1 , enabled = true)
-	public void TC1_ForgotPassword_Test() throws InterruptedException  {
+	public void TC1_ForgotPassword_Test(String userName) throws InterruptedException  {
 		
         logger1.info("TC1_ForgotPassword_Test is started");
         logger1.info("URL is launched successfully");
@@ -42,7 +43,7 @@ public class forgotPassWordTest extends BaseTest {
 		logger1.info("ForgotPasswordPage title: \""+forgpotPwdTitle+"\" is displayed");
 		
 		//Enter email in Email field
-		 forgot.ForgotPwd("sarutanush@gmail.com");
+		 forgot.ForgotPwd(userName);
 		 logger1.info("Email is sent");
 		 logger1.info("Test case is passed");
 

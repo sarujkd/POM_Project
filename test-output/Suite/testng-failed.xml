@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [ Suite]" parallel="tests">
-  <test thread-count="2" name="XERO Test on Chrome(failed)" parallel="tests">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="India1234"/>
     <parameter name="browser" value="chrome"/>
+    <parameter name="username" value="sarutanush@gmail.com"/>
     <classes>
       <class name="com.Tests.LoginTest">
         <methods>
           <include name="closReport"/>
-          <include name="TC3_login_Without_Username_Test"/>
-          <include name="TC1_login_With_Valid_Credentials_Test"/>
           <include name="tearDown"/>
-          <include name="TC2_login_Without_Password_Test"/>
+          <include name="TC2_login_Without_Password_Test" invocation-numbers="0"/>
           <include name="CreateReport"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.Tests.LoginTest -->
     </classes>
-  </test> <!-- XERO Test on Chrome(failed) -->
-</suite> <!-- Failed suite [ Suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

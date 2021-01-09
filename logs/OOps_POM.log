@@ -1,23 +1,23 @@
-[INFO ] 2021-01-06 16:25:15.520 [main] LoginTest - TC1_login_WithValid_Credentials_Test is started
-[INFO ] 2021-01-06 16:25:15.525 [main] LoginTest - URL is launched successfully
-[INFO ] 2021-01-06 16:25:15.577 [main] LoginTest - LoginPage title: "Login | Xero Accounting Software "is displayed
-[INFO ] 2021-01-06 16:25:21.195 [main] LoginTest - Homepage title: "My Xero | Home" is displayed
-[INFO ] 2021-01-06 16:25:21.195 [main] LoginTest - Test case is passed
-[INFO ] 2021-01-06 16:25:31.738 [main] LoginTest - TC2_login_With_InValidPassword_Test is started
-[INFO ] 2021-01-06 16:25:31.739 [main] LoginTest - URL is launched successfully
-[INFO ] 2021-01-06 16:25:31.782 [main] LoginTest - LoginPage title: "Login | Xero Accounting Software " is displayed
-[INFO ] 2021-01-06 16:25:31.783 [main] LoginTest - User is in Login Page
-[INFO ] 2021-01-06 16:25:33.772 [main] LoginTest - Error message: "Your email or password is incorrect" is displayed
-[INFO ] 2021-01-06 16:25:33.773 [main] LoginTest - Testcase is passed
-[INFO ] 2021-01-06 16:25:44.743 [main] LoginTest - TC3_login_With_InValid_Username_Test is started
-[INFO ] 2021-01-06 16:25:44.743 [main] LoginTest - URL is launched successfully
-[INFO ] 2021-01-06 16:25:44.781 [main] LoginTest - LoginPage title: "Login | Xero Accounting Software " is displayed
-[INFO ] 2021-01-06 16:25:44.782 [main] LoginTest - User is in login page
-[INFO ] 2021-01-06 16:25:47.707 [main] LoginTest - Error message: "Your email or password is incorrect " is displayed
-[INFO ] 2021-01-06 16:25:47.707 [main] LoginTest - Testcase is passed
-[INFO ] 2021-01-06 16:25:59.546 [main] forgotPassWordTest - TC1_ForgotPassword_Test is started
-[INFO ] 2021-01-06 16:25:59.546 [main] forgotPassWordTest - URL is launched successfully
-[INFO ] 2021-01-06 16:25:59.550 [main] forgotPassWordTest - LoginPage title: "Login | Xero Accounting Software "is displayed
-[INFO ] 2021-01-06 16:26:00.231 [main] forgotPassWordTest - ForgotPasswordPage title: "Forgotten Password" is displayed
-[INFO ] 2021-01-06 16:26:02.386 [main] forgotPassWordTest - Email is sent
-[INFO ] 2021-01-06 16:26:02.386 [main] forgotPassWordTest - Test case is passed
+[INFO ] 2021-01-08 20:13:40.956 [TestNG-tests-1] LoginTest - TC1_login_WithValid_Credentials_Test is started
+[INFO ] 2021-01-08 20:13:40.959 [TestNG-tests-1] LoginTest - URL is launched successfully
+[INFO ] 2021-01-08 20:13:41.002 [TestNG-tests-1] LoginTest - LoginPage title: "Login | Xero Accounting Software "is displayed
+[INFO ] 2021-01-08 20:13:47.443 [TestNG-tests-1] LoginTest - Homepage title: "My Xero | Home" is displayed
+[INFO ] 2021-01-08 20:13:47.443 [TestNG-tests-1] LoginTest - Test case is passed
+[INFO ] 2021-01-08 20:13:58.226 [TestNG-tests-1] LoginTest - TC2_login_With_InValidPassword_Test is started
+[INFO ] 2021-01-08 20:13:58.226 [TestNG-tests-1] LoginTest - URL is launched successfully
+[INFO ] 2021-01-08 20:13:58.301 [TestNG-tests-1] LoginTest - LoginPage title: "Login | Xero Accounting Software " is displayed
+[INFO ] 2021-01-08 20:13:58.302 [TestNG-tests-1] LoginTest - User is in Login Page
+[INFO ] 2021-01-08 20:14:00.372 [TestNG-tests-1] LoginTest - Error message: "Your email or password is incorrect" is displayed
+[INFO ] 2021-01-08 20:14:00.372 [TestNG-tests-1] LoginTest - Testcase is passed
+[INFO ] 2021-01-08 20:14:11.351 [TestNG-tests-1] LoginTest - TC3_login_With_InValid_Username_Test is started
+[INFO ] 2021-01-08 20:14:11.352 [TestNG-tests-1] LoginTest - URL is launched successfully
+[INFO ] 2021-01-08 20:14:11.429 [TestNG-tests-1] LoginTest - LoginPage title: "Login | Xero Accounting Software " is displayed
+[INFO ] 2021-01-08 20:14:11.429 [TestNG-tests-1] LoginTest - User is in login page
+[INFO ] 2021-01-08 20:14:14.572 [TestNG-tests-1] LoginTest - Error message: "Your email or password is incorrect " is displayed
+[INFO ] 2021-01-08 20:14:14.573 [TestNG-tests-1] LoginTest - Testcase is passed
+[INFO ] 2021-01-08 20:14:28.051 [main] forgotPassWordTest - TC1_ForgotPassword_Test is started
+[INFO ] 2021-01-08 20:14:28.053 [main] forgotPassWordTest - URL is launched successfully
+[INFO ] 2021-01-08 20:14:28.058 [main] forgotPassWordTest - LoginPage title: "Login | Xero Accounting Software "is displayed
+[INFO ] 2021-01-08 20:14:28.858 [main] forgotPassWordTest - ForgotPasswordPage title: "Forgotten Password" is displayed
+[INFO ] 2021-01-08 20:14:31.066 [main] forgotPassWordTest - Email is sent
+[INFO ] 2021-01-08 20:14:31.066 [main] forgotPassWordTest - Test case is passed

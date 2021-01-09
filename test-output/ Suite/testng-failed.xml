@@ -7,8 +7,10 @@
       <class name="com.Tests.LoginTest">
         <methods>
           <include name="closReport"/>
+          <include name="TC3_login_Without_Username_Test"/>
           <include name="TC1_login_With_Valid_Credentials_Test"/>
           <include name="tearDown"/>
+          <include name="TC2_login_Without_Password_Test"/>
           <include name="CreateReport"/>
           <include name="setUp"/>
         </methods>
